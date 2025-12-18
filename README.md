@@ -7,6 +7,33 @@ This project proposes an AI-based legal case reasoning system using Transformer 
 
 The proposed system improves the accuracy, transparency, and efficiency of legal research by reducing hallucinations, enabling precedent-aware reasoning, and providing explainable outputs. This approach demonstrates the potential of combining Transformers with structured knowledge graphs for reliable and intelligent legal decision-support systems.
 
-<img width="1007" height="542" alt="image" src="https://github.com/user-attachments/assets/3c1feb34-3413-4c65-b171-6548fad9b31b" />
+<img width="1076" height="613" alt="image" src="https://github.com/user-attachments/assets/4c652856-ffe9-48da-b068-54731f9d943b" />
+
 <img width="982" height="386" alt="image" src="https://github.com/user-attachments/assets/062861ea-450e-49ff-b219-c762dd1fe887" />
+
+1️) Transformer-Based Models
+
+Transformer models are used for natural language understanding and text processing. They help in extracting important legal entities, understanding judicial language, and summarizing legal documents. Transformers enable the system to capture long-range dependencies and semantic relationships within legal texts.
+
+2️) Large Language Model (LLM)
+
+A Large Language Model, built on the Transformer architecture, is used to generate human-readable legal reasoning. The LLM interprets the user’s legal query and produces detailed explanations based on the information retrieved from the knowledge graph. The LLM does not work independently; it relies on structured legal data provided through GraphRAG to ensure correctness and explainability.
+
+3️) Graph-Based Retrieval Augmented Generation (GraphRAG)
+
+GraphRAG is employed to retrieve relevant judicial precedents using a legal knowledge graph. Unlike traditional retrieval methods, GraphRAG enables multi-hop reasoning by traversing citation relationships among cases. This approach improves accuracy and provides transparent reasoning paths supported by legal citations.
+
+4️) Legal Knowledge Graph
+
+A legal knowledge graph is constructed to represent judicial cases, legal concepts, and their relationships. Nodes represent entities such as cases, courts, and legal provisions, while edges represent citation and precedent relationships. The knowledge graph serves as the structured memory of the system.
+
+5️) Judicial Judgment Dataset
+
+Publicly available judicial judgments from the Indian Supreme Court are used as the primary dataset. These judgments provide the textual content and citation relationships necessary for building the knowledge graph and supporting legal reasoning.
+
+Dataset link:https://github.com/vanga/indian-supreme-court-judgments/blob/main/opendata/tutorials/README.md
+
+6️) Natural Language Processing (NLP) Techniques
+
+NLP techniques such as named entity recognition, text cleaning, and document segmentation are applied to preprocess legal documents. These techniques enable accurate extraction of legal entities and relationships from unstructured judgment text.
 
