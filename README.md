@@ -11,6 +11,8 @@ The proposed system improves the accuracy, transparency, and efficiency of legal
 
 <img width="982" height="386" alt="image" src="https://github.com/user-attachments/assets/062861ea-450e-49ff-b219-c762dd1fe887" />
 
+This project proposes an intelligent legal case reasoning system that integrates modern natural language processing techniques with structured knowledge representation. The following components are used in the proposed system:
+
 1️) Transformer-Based Models
 
 Transformer models are used for natural language understanding and text processing. They help in extracting important legal entities, understanding judicial language, and summarizing legal documents. Transformers enable the system to capture long-range dependencies and semantic relationships within legal texts.
