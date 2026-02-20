@@ -60,3 +60,12 @@ utils.py – Data loading and processing
 
 <img width="1537" height="773" alt="image" src="https://github.com/user-attachments/assets/244428d5-1230-4a88-86a3-a9bc468bc498" />
 
+# Novalty of the project
+<img width="810" height="333" alt="image" src="https://github.com/user-attachments/assets/9287adfd-2f52-407e-be14-967d3d09989f" />
+
+# Our proposed framework illustrates in Figure 1.
+The system consists of four main components: (1) an LSTM-based RLagent for sequential anomaly detection, (2) a VAE to estimate anomaly magnitude via reconstruction error with dynamic reward scaling, (3) an LLM-based semantic potential functionfor reward shaping, and (4) an active learning and label
+propagation module to minimize labeling cost.
+
+
+
