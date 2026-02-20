@@ -5,10 +5,14 @@ the dataset is in a single block so it will have to be split up
 
 Use LoRA(Low rank adaptation) on the Bart model to target the attenjtion layers; can set rank value to determine the weighting
 lora makes it easier to train the model on lightweight device(ESP32)
-Seq2seq trainer to train over 3 epochs; loss decreased from 10 -> 1
+Seq2seq trainer over 3 epochs; loss decreased from 10 -> 1
 script creates fake data and tests model
 model tends to hallucinate
 
 
 ft
+help surmise the sp32
+heavier lora, more parameters; data collator pads the batches to save memory
+gradient accumulation simulates a large batch size by collecting gradients over multiple stepsbefore it updates model weights
+good for gpu with less vram
 
