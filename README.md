@@ -3,6 +3,7 @@ Team Member:
 Tarun kumar R(25MML0057)
 Ahamed Razi C (25MML0058)
 R Amarnath(25MML0051)
+Adithyash (25MML0002)
 
 Abstract:
 Legal research is a fundamental yet time-consuming task in the judicial and legal domains, as it requires analyzing large volumes of judicial judgments and identifying relevant precedents. Traditional legal information retrieval systems mainly rely on keyword-based search techniques, which fail to capture the complex relationships between cases and often lack reasoning and explainability. With the increasing availability of digital legal documents, there is a growing need for intelligent systems that can perform structured, accurate, and explainable legal reasoning.
