@@ -1,0 +1,2 @@
+avg_reward,avg_loss,accuracy,precision,recall,f1_score,epsilon,alert_rate,queries_used,pseudo_labels,budget_remaining,vae_score,llm_advice_count,epoch,timestamp
+1.6888888888888889,0.4041562707528186,0.9555555555555556,0.0,0.0,0.0,0.049911691230058335,0.04,5,0,0,0.02756820830516517,0,0,2026-03-09T15:07:58.750501
