@@ -72,9 +72,10 @@ propagation module to minimize labeling cost.
 
 
 # Project Updated
+# Node-red
 
 <img width="1728" height="940" alt="image" src="https://github.com/user-attachments/assets/5fb62f4e-487e-41ca-a1ba-400dd747f71d" />
-
+# Frontend of the Dashboard
 <img width="1857" height="1068" alt="image" src="https://github.com/user-attachments/assets/770d1110-1375-4813-a18f-64a21882abe9" />
 
 <img width="1877" height="937" alt="image" src="https://github.com/user-attachments/assets/62f0605d-9c41-4ccb-9ea8-7d852fe4d623" />
