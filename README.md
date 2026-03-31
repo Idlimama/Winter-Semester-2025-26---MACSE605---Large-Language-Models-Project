@@ -66,6 +66,10 @@ utils.py – Data loading and processing
 # Our proposed framework illustrated in Figure 1.
 The system consists of four main components: (1) an LSTM-based RLagent for sequential anomaly detection, (2) a VAE to estimate anomaly magnitude via reconstruction error with dynamic reward scaling, (3) an LLM-based semantic potential functionfor reward shaping, and (4) an active learning and label
 propagation module to minimize labeling cost.
+# Edge-to-Cloud Digital Twin Architecture with LLM Integration
+
+![WhatsApp Image 2026-02-24 at 9 58 05 AM](https://github.com/user-attachments/assets/f0584dab-ae04-494f-a369-bc0456507a54)
+
 
 
 
